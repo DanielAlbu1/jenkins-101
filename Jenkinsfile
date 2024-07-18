@@ -22,7 +22,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                cd myApp
+                cd myapp
                 python3 hello.py
                 python3 hello.py --name=Daniel
                 
